@@ -16,7 +16,7 @@ from ParticlePointTracker import ParticlePointTracker, Features -> see examples
 - Grey level coocurence matrix
 - SIFT feature matching
 
-## Feature extension
-Just extrend the ParticleFeature class to add new features.
+## Adding new Features
+Just extend the *ParticleFeature* class to add new features.
 Feature instances should store their ground truth and current observed values for each point (I just use dicts for that).
 The calculated error should then be normalized between 0..1. All errors will be normalized by default, but unnormalized error values will lead to a very unbalanced behaviour.
