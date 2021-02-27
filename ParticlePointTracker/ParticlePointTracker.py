@@ -56,6 +56,7 @@ class ParticlePointTracker(object):
         self.search_radius = ParticlePointTracker.search_radius
         self.flow_map = None
         self.features = self.features_generator()
+        self.resulting_points = None
 
     def __particle_observation(self, particles: np.ndarray):
         """
