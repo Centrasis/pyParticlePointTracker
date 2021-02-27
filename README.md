@@ -11,7 +11,7 @@ from ParticlePointTracker import ParticlePointTracker, Features -> see examples
 
 ## Predefined Features
 - RGB Histograms
-- HSV Histrograms
+- HSV Histograms
 - Template matching
 - Grey level coocurence matrix
 - SIFT feature matching
