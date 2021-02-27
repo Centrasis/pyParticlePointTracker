@@ -1,5 +1,5 @@
 # pyParticlePointTracker
-A simple particle filter that utilizes the [farnebäck optical flow](https://docs.opencv.org/3.4/d4/dee/tutorial_optical_flow.html) and can be extended by additional features.
+A simple particle filter (also called "sequential montecarlo simulation") that utilizes the [farnebäck optical flow](https://docs.opencv.org/3.4/d4/dee/tutorial_optical_flow.html) and can be extended by additional features.
 See examples for usage.
 The farnebäck optical flow restricts the search area in such that you should use fluent videos to track points within. If the jumps are too big for farnebäck to be registrated, then the points will not be moved at all!
 
