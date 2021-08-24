@@ -4,7 +4,7 @@ See examples for usage.
 The farnebäck optical flow restricts the search area in such that you should use fluent videos to track points within. If the jumps are too big for farnebäck to be registrated, then the points will not be moved at all!
 
 ## Installation
-pip install git+https://github.com/ftl999/pyParticlePointTracker
+pip install git+https://github.com/Centrasis/pyParticlePointTracker
 
 ### Importing
 from ParticlePointTracker import ParticlePointTracker, Features -> see examples

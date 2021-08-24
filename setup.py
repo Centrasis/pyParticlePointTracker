@@ -11,7 +11,7 @@ setuptools.setup(
     description="A simple particle point tracker",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/ftl999/pyParticlePointTracker",
+    url="https://github.com/Centrasis/pyParticlePointTracker",
     classifiers=[
         "Programming Language :: Python :: 3",
         "Operating System :: OS Independent",
